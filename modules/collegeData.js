@@ -104,16 +104,6 @@ function getCourses(dataCollection){
     )
 }
 
-// initialize()
-//     .then(function(dataCollection) {
-//         console.log("Test success");
-//         //console.log("Students:", dataCollection.students);
-//         //console.log("Courses:", dataCollection.courses);
-//     })
-//     .catch(function(error) {
-//         console.error("Test:", error);
-//     });
-
 
 //Export the following functions so that they can be called in a2.js:
 module.exports = { initialize, getAllStudents, getTAs, getCourses };
